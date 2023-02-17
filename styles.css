@@ -1,0 +1,133 @@
+
+   
+    body{
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+    }
+   
+    h1,h2,h3,h4,h5,h6 {
+      font-family: 'Montserrat',sans-serif;
+    }
+    p{
+      color : gray;
+    }
+    .big-heading{
+      font-family: 'Montserrat',sans-serif;
+    font-size: 3rem;
+      font-weight: bold;
+      line-height:1.5 ;
+    }
+    .section-heading {
+      font-weight: bold;
+      line-height: 1.5;
+    }
+    .container-fluid {
+      padding : 7% 15%;
+    }
+    .navbar {
+      padding : 0 0 4.5rem;
+    }
+
+    .navbar-brand {
+      font-family: "Ubuntu";
+      font-size: 2.5rem;
+    }
+
+    .nav-item{
+      padding : 0 1.5rem;
+    }
+    .nav-link {
+      font-size: 1.2rem;
+      font-family : 'Montserrat';
+    }
+    .dbutton {
+      margin : 5% 3% 5% 0;
+    }
+    #title {
+      background-color: #ff4c68;
+      color : #fff;
+      text-align: left;
+    }
+    #title .container-fluid {
+      padding : 3% 15% 7%;
+    }
+    .title-image {
+      width : 22%;
+      transform: rotate(25deg);
+      position : absolute;
+      right : 25%
+    }
+   
+
+    
+  #features {
+
+    background-color: #fff;
+    position: relative;
+
+  }
+  .features-heading {
+    font-weight: bold;
+  }
+   .feature-box {
+    padding : 5%;
+  
+   }
+   .icon{
+    color : #ef8172;
+    margin-bottom: 1rem;
+   }
+   .icon:hover{
+    color : #ff4c68;
+   }
+   #testimonials{
+   
+  
+    background-color: #ef8172;
+    color : #fff;
+   }
+   .testimonial-text {
+    font-weight : bold;
+    line-height: 1.5;
+   }
+   .testimonial-image {
+    width : 10%;
+    border-radius: 100%;
+    padding : 20px;
+   }
+   #press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+   }
+   .logo {
+    width : 15%;
+    margin : 20px 20px 50px;
+   }
+   #pricing {
+    padding : 100px;
+   }
+   .price-text {
+    font-weight : bold;
+    line-height: 1.5;
+   }
+   .pricing-col {
+    padding : 3% 2%;
+   }
+   #cta {
+     background-color: #ff4c68;
+     color : #fff;
+     font-size: 3.5rem;
+     font-weight: bold;
+     padding : 6% 0 4%;
+   }
+   .icn{
+    padding : 20px 10px;
+
+   }
+   @media(max-width : 1026px){
+    .title-image {
+      width : 60%;
+      position : static;
+      right : 25%
+    }
+  }
